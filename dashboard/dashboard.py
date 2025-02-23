@@ -8,7 +8,7 @@ from tqdm import tqdm
 # Membaca dan menggabungkan data
 st.title("Dashboard Analisis Data Produk")
 
-data_direktori = Path('../data')
+data_direktori = Path('data')
 csv_files = list(data_direktori.glob('*.csv'))
 
 if not data_direktori.exists() or not csv_files:
